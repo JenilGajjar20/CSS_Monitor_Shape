@@ -13,24 +13,26 @@ For example, it can be used to:<br>
 
 ## Syntax
 The syntax of pseudo-elements:<br>
-selector::pseudo-element {
-  property: value;
+<b>
+selector::pseudo-element {<br>
+  property: value;<br>
 }
-
+</b>
 
 The Pseudo-Elements I have used here are: <br>
 <ol>
-<li>::before</li>
-<li>::after</li>
+  <li><b>::before</b></li>
+  <li><b>::after</b></li>
 </ol>
 
 ## 1. ::before Pseudo-element
-The <b>::before</b> pseudo-element can be used to insert some content before the content of an element.
+The <b>::before</b> pseudo-element can be used to insert some content before the content of an element.<br>
 To have a look at the example click <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_before">here</a>
 
 ## 2. ::after Pseudo-element
-The <b>::after</b> pseudo-element can be used to insert some content after the content of an element.
+The <b>::after</b> pseudo-element can be used to insert some content after the content of an element.<br>
 To have a look at the example click <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_after">here</a>
 
+<hr>
 
 Here is the link to see the live page: https://jenilgajjar20.github.io/Monitor_Shape/
