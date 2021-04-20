@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.monitor{
+    width: 700px;
+    height: 350px;
+    background-color: #000;
+    border-bottom: 60px solid rgb(204, 201, 201);
+    border-radius: 10px;
+}
+
+.monitor::before{
+    content: '';
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: perspective(100px) translateX(-50%) rotateX(25deg) skewX(16deg);
+    z-index: -1;
+    transform-origin: bottom;
+}
+
+.monitor::after{
+    content: '';
+    width: 400px;
+    height: 30px;
+    background-color: rgb(204, 201, 201);
+    position: absolute;
+    left: 50%;
+    bottom: -75px;
+    transform: translateX(-50%);
+    z-index: -1;
+    transform-origin: bottom;
+}
+
+.monitor img{
+    position: absolute;
+    left: 50%;
+    top: -1095px;
+    transform: translateX(-50%) scale(0.01);
+}
