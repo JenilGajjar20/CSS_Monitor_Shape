@@ -15,8 +15,8 @@ For example, it can be used to:<br>
 The syntax of pseudo-elements:<br>
 <code>
   <b>
-    selector::pseudo-element {<br>
-      property: value;<br>
+    selector::pseudo-element {
+      property: value;
     }
   </b>
  </code>
