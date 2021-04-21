@@ -13,11 +13,13 @@ For example, it can be used to:<br>
 
 ## Syntax
 The syntax of pseudo-elements:<br>
-<b>
-selector::pseudo-element {<br>
-  property: value;<br>
-}
-</b>
+<code>
+  <b>
+    selector::pseudo-element {<br>
+      property: value;<br>
+    }
+  </b>
+ </code>
 
 The Pseudo-Elements I have used here are: <br>
 <ol>
