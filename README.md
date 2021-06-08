@@ -37,4 +37,4 @@ To have a look at the example click <a href="https://www.w3schools.com/css/tryit
 
 <hr>
 
-Here is the link to see the live page: https://jenilgajjar20.github.io/Monitor_Shape/
+Here is the link to see the live page: https://jenilgajjar20.github.io/CSS_Monitor_Shape/
